@@ -20,7 +20,7 @@ Installation:
         name: unit         Type: varchar
         name: id           Type: int (Auto Increment)
         
-2:Update Details in OvoEnergy.php and GetOvoData.php where there are *****#
+2:Update Details in OvoEnergy.php and GetOvoData.php where there are *****
 
 3:GetOvoData.php can be used to backfill the last few days by first using the uncommented line and changing the date and running the script
 4:Once you have backfilled the database comment out that line and replace it with the line below, then set that script on a daily Cron job.
