@@ -2,6 +2,8 @@
 Scripts for my smarthome web dashboard to show weekly rolling energy use.
 
 
+
+
 Installation:
 1: Have MySQL Database with 
   Database name "OvoEnergy",
