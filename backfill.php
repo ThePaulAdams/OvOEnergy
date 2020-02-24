@@ -44,7 +44,8 @@ $date=date("Y-m-d", strtotime( '-1 days' ) );
 curl_setopt($ch, CURLOPT_COOKIEJAR,  $cookie_file); 
 curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie_file);
 curl_setopt($ch, CURLOPT_COOKIESESSION, true );
-curl_setopt($ch, CURLOPT_URL ,"https://smartpaym.ovoenergy.com/api/energy-usage/half-hourly/*****?date=2020-02-16"); 
+//login to OVO online and visit https://smartpaym.ovoenergy.com/api/customer-and-account-ids to get account ID for below
+curl_setopt($ch, CURLOPT_URL ,"https://smartpaym.ovoenergy.com/api/energy-usage/half-hourly/*****?date=YYYY-MM-DD");  
 curl_setopt($ch, CURLOPT_RETURNTRANSFER , true);
 curl_setopt($ch, CURLOPT_ENCODING , "");
 curl_setopt($ch, CURLOPT_MAXREDIRS , 10);
