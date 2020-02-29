@@ -1,7 +1,7 @@
 # OvOEnergy
 Scripts for my smarthome web dashboard to show weekly rolling energy use.
 
-![Energy Graph](http://thepauladams.com/img/graph.png)
+![Energy Graph](http://thepauladams.com/img/graph.PNG)
 
 
 Installation:
