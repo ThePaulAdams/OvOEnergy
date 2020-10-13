@@ -47,7 +47,7 @@ curl_setopt($ch, CURLOPT_COOKIESESSION, true );
 //login to OVO online and visit https://smartpaym.ovoenergy.com/api/customer-and-account-ids to get account ID for below
 //after backfilling data replace with line below and run on CRON Job daily
 curl_setopt($ch, CURLOPT_URL ,"https://smartpaym.ovoenergy.com/api/energy-usage/half-hourly/*****?date=YYYY-MM-DD");  
-//curl_setopt($ch, CURLOPT_URL ,"https://smartpaym.ovoenergy.com/api/energy-usage/half-hourly/6422168?date=".$date); 
+//curl_setopt($ch, CURLOPT_URL ,"https://smartpaym.ovoenergy.com/api/energy-usage/half-hourly/?date=".$date); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER , true);
 curl_setopt($ch, CURLOPT_ENCODING , "");
 curl_setopt($ch, CURLOPT_MAXREDIRS , 10);
